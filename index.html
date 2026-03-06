@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palavra Secreta</title>
+    <link  rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1>Palavra Secreta</h1>
+        <p class="subtitulo">Descubra a palavra secreta!</p>
+    </header>
+    <main class="container">
+        <!--Essa parte é o menu do jogo!-->
+    <section class="menu-jogo">
+        <h2>Configurações do Jogo</h2>
+        <div class="config">
+            <label>Dificuldade</label>
+            <select>
+                <option>Fácil</option>
+                <option>Média</option>
+                <option>Difícil</option>
+            </select>
+        </div>
+        <div class="confing">
+            <label>Modo de Palavra</label>
+            <div class="opcoes">
+                <button class="modo">Escolher Palavra</button>
+                <button class="modo">Palavra Aleatória</button>
+            </div>
+        </div>
+
+        <button class="comecar">Começar Jogo</button>
+    </section>
+
+    <!--Parte da area do jogo-->
+    <section class="jogo">
+        <div class="tema">
+            Tema: <span>Animais</span>
+        </div>
+        <div class="palavra">
+            <span>_</span>
+            <span>_</span>
+            <span>_</span>
+            <span>_</span>
+            <span>_</span>
+        </div>
+        <div class="entrada">
+           <input id="letra" type="text" maxlength="1" placeholder="Digite uma letra" autocomplete="off">
+            <button class="tentar"> Tentar</button>
+        </div>
+        <div class="status">
+            <p>Tentativas restantes: <strong>6</strong></p>
+            <p>Letras Usadas: <span class="letras"></span></p>
+        </div>
+    </section>
+    
+    </main>
+<script src="script.js"></script>
+    
+</body>
+</html>
