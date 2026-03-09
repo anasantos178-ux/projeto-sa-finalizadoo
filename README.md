@@ -1,13 +1,13 @@
-#Projeto SA - Jogo Descubra a Palavra
-##Curso
+# Projeto SA - Jogo Descubra a Palavra
+## Curso
 Técnico em desenvolvimento de sistemas
 UC: Lógica de programação
 
-#Descrição do Projeto
+# Descrição do Projeto
 Desenvolvimento de um jogo de adivinhação de palavras para web
 O objetivo é aplicar conceitos fundamentais de lógica de programação, manipulação de DOM e organização de código em um projeto real de desenvolvimento.
 
-#O jogador deve descobrir uma palavra secreta tentando adivinhar a letra.
+# O jogador deve descobrir uma palavra secreta tentando adivinhar a letra.
 
 1️⃣ Quantas tentativas o jogador terá? O jogador terá 6 tentativas, poucas tentaivas para forçar o pensamento lógico na adinhação da palavra secreta.
 2️⃣ Como o jogo irá mostrar a palavra oculta? A palavra oculta aparecera nas lacunas: "_ _ _ _ _".
